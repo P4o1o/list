@@ -42,7 +42,7 @@ void print_help(const char *prog_name) {
     printf("\n");
     
     printf("Options for displaying information:\n");
-    printf("  -f, --fullpath        Print only the full path of the node\n");
+    printf("  -f, --fullpath        Print the full path of the node instead of the name\n");
     printf("  -c, --count           At the end print the number of visited node\n");
     printf("  -a, --all             Show all following information\n");
     printf("  -i, --inode           Show the inode id\n");
